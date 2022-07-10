@@ -1,12 +1,12 @@
 import React from "react";
-import styled from "styled-components";
+import AuthForm from "../components/Auth/AuthForm";
 
 const LoginPage = () => {
-  return <div>LoginPage</div>;
+  return (
+    <div>
+      <AuthForm />
+    </div>
+  );
 };
-
-const AuthForm = styled.div`
-  display: flex;
-`;
 
 export default LoginPage;
